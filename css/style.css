@@ -1,7 +1,7 @@
 .header {}
 
 .header {
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 999;
     background: #fff;
@@ -63,9 +63,8 @@
     .header {
         position: static;
         top: 0;
-        left: 0;
         z-index: 999;
-
+        background: #fff;
     }
 
     .header .hd_wrap {
@@ -79,7 +78,7 @@
 
 
     .header h1 {
-        position: fixed;
+
         z-index: 1000;
         padding: 0 0 0 24px;
     }
