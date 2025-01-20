@@ -419,6 +419,7 @@
 
     .footer .customer {
         display: flex;
+        flex-direction: column;
         max-width: 1170px;
         margin: 0 auto;
         color: #fff;
@@ -431,10 +432,10 @@
     .footer .t {
 
         max-width: 1170px;
-        margin-left: auto;
+        margin-left: 0;
         font-weight: 600;
         white-space: wrap;
-
+        margin-top: 8px;
     }
 
     .footer address {
